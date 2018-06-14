@@ -63,7 +63,7 @@ header {
 }
 
 .mask2 {
-    line-height: 70px;
+    line-height: 75px;
     width: 60px;
     height: 60px;
 }
@@ -72,8 +72,8 @@ header {
     line-height: 71px;
     width: 60px;
     height: 60px;
-    bottom: 12px;
-    right: 12px;
+    bottom: 30px;
+    right: 40px;
 }
 
 .test1,

@@ -24,8 +24,8 @@ img.logo {
 }
 
 .parent2 {
-    bottom: 12px;
-    right: 12px;
+    bottom: 30px;
+    right: 40px;
     position: fixed;
     display: block;
     width: 90px;
@@ -107,8 +107,8 @@ img.logo {
 }
 
 .mask2 {
-    bottom: 12px;
-    right: 12px;
+    bottom: 30px;
+    right: 40px;
     width: 90px;
     height: 90px;
     background-color: #3700B3;
@@ -117,7 +117,7 @@ img.logo {
     z-index: 21;
     color: white;
     text-align: center;
-    line-height: 100px;
+    line-height: 105px;
     cursor: pointer;
     position: fixed;
     -webkit-box-shadow: -6px 6px 21px -4px rgba(0, 0, 0, 0.75);
