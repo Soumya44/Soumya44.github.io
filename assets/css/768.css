@@ -144,12 +144,12 @@ div.project-card {
     font-size: 1.125rem;
 }
 
-#cd-timeline {
+.cd-container {
     margin-top: 2em;
     margin-bottom: 2em;
 }
 
-#cd-timeline::before {
+.cd-container::before {
     left: 18px;
     margin-left: auto;
 }
