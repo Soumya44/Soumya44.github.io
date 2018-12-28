@@ -31,3 +31,10 @@ $('.tab-link').click( function() {
 	
 	$('#tab-'+tabID).addClass('active').siblings().removeClass('active');
 });
+
+$(document).on('click', function(){
+    $('.navbar-collapse').collapse('hide');
+});
+$(document).on('scroll', function(){
+    $('.navbar-collapse').collapse('hide');
+});

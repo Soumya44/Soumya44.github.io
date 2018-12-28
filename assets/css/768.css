@@ -6,13 +6,25 @@ body {
     background-repeat: no-repeat;
 }
 
+
+nav.navbar {
+    /*display: none !important;*/
+    order: -2;
+    position: fixed;
+    right: 0;
+    left: 0;
+    z-index: 1030;
+    top: 0;
+}
+
+
 header.intro-header {
     display: none;
 }
 
-div.section-body {
+/*div.section-body {
     display: none;
-}
+}*/
 
 div.container-fluid {
     display: flex;
@@ -23,6 +35,7 @@ div.container-fluid {
 
 div.profile-section {
     order: -1;
+    margin-top: 12rem;
 }
 
 div.profile-card {

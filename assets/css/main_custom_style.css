@@ -24,15 +24,6 @@ p.card-text {
     text-align: justify;
 }
 
-.section-body {
-    background-image: url(../media/cover.jpg);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    overflow-x: hidden;
-    padding-top: 1.2rem;
-    height: 30rem;
-}
 
 /*Nav Bar Logo*/
 
@@ -69,46 +60,12 @@ h2 {
     margin-top: auto;
 }
 
-nav.custom-navbar-style {
-    background: none;
-}
-
-.custom-navbar-style ul {
-    margin: 0 auto;
-    width: 100%;
-}
-
-.custom-navbar-style li {
-    position: relative;
-    display: inline-block;
-    margin: 0 auto;
-    border-radius: 5px;
-    width: 8.5rem;
-    text-align: center;
-}
 
 .btn,
 .btn-primary {
     box-shadow: 3px 3px 20px 0px rgba(0, 0, 0, 0.75);
     background-color: #02b3e4;
     border-color: #02b3e4;
-}
-
-a.nav-link {
-    background-color: rgba(0, 10, 50, 0.1);
-    border-radius: inherit;
-    color: white !important;
-    font-weight: bold;
-    font-size: 1.4rem;
-    line-height: 1.8rem;
-    border: 2px solid transparent;
-    box-shadow: 7px 7px 20px -4px rgba(0, 0, 0, 0.75);
-}
-
-a.nav-link:hover {
-    border-color: white;
-    background-color: #02b3e4;
-    transition: 0.8s;
 }
 
 div.section-projects {
@@ -466,3 +423,53 @@ div.contact-section {
     visibility: hidden;
 }
 
+/* Transparent NavBar only in Desktop Mode */
+@media screen and (min-width: 992px) {
+    nav.custom-navbar-style {
+    background: none;
+}
+.section-body {
+    background-image: url(../media/cover.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow-x: hidden;
+    padding-top: 1.2rem;
+    height: 30rem;
+}
+
+
+.custom-navbar-style ul {
+    margin: 0 auto;
+    width: 100%;
+}
+
+.custom-navbar-style li {
+    position: relative;
+    display: inline-block;
+    margin: 0 auto;
+    border-radius: 5px;
+    width: 8.5rem;
+    text-align: center;
+}
+a.nav-link {
+    background-color: rgba(0, 10, 50, 0.1);
+    border-radius: inherit;
+    color: white !important;
+    font-weight: bold;
+    font-size: 1.4rem;
+    line-height: 1.8rem;
+    border: 2px solid transparent;
+    box-shadow: 7px 7px 20px -4px rgba(0, 0, 0, 0.75);
+}
+
+a.nav-link:hover {
+    border-color: white;
+    background-color: #02b3e4;
+    transition: 0.8s;
+}
+.navbar-brand {
+    display: none;
+}
+
+}
