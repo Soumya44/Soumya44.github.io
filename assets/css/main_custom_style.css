@@ -102,7 +102,9 @@ div.profile-section div.card {
     border-radius: 50%;
     max-height: 16rem;
     max-width: 14rem;
-    border: 5px solid #02b3e4;
+    /*height: auto;
+    width: auto;
+*/    border: 5px solid #02b3e4;
 }
 
 div.profile-body-wrapper {
